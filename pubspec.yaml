@@ -17,6 +17,7 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^2.0.0
   pigeon: ^11.0.0
+  image: ^4.2.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -39,6 +40,8 @@ flutter:
         package: com.ks.native_screenshot_widget.native_screenshot_widget
         pluginClass: NativeScreenshotWidgetPlugin
       ios:
+        pluginClass: NativeScreenshotWidgetPlugin
+      macos:
         pluginClass: NativeScreenshotWidgetPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
